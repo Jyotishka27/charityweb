@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charity Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+
+  <!-- Header -->
+  <header class="bg-white border-b">
+    <div class="max-w-6xl mx-auto px-4 py-4">
+      <h1 class="text-2xl font-bold">Charity Hub</h1>
+      <p class="text-sm text-slate-500">
+        Discover verified charitable work. No signup required.
+      </p>
+    </div>
+  </header>
+
+  <!-- Feed -->
+  <main class="max-w-6xl mx-auto px-4 py-8">
+    <div id="post-feed" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Cards injected by JS -->
+    </div>
+  </main>
+
+</body>
+<script src="./js/data.js"></script>
+<script src="./js/feed.js"></script>
+</html>
 
